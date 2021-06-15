@@ -1,3 +1,4 @@
 test:
   value: hello you !!!!
+  list: ['AA', 'BB', 'CC', 'DD', 'EE', 'FF']
   fix: i'm fix
