@@ -2,3 +2,16 @@ test:
   value: hello you !!!!
   list: ['AA', 'BB', 'CC', 'DD', 'EE', 'FF']
   fix: i'm fix
+
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
